@@ -1,6 +1,7 @@
 class PostsController < ApplicationController
     
     def index
+        # コメント追加テスト
         @posts = Post.all
     end
     
